@@ -1,0 +1,258 @@
+h1{
+    align-content: center;
+    color: black;
+    font-size: 60px;
+    
+
+}
+h2{
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+  color: black;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: white;
+    /* background-image: url("try3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; */
+    
+    
+}
+
+.about{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    background-origin: padding-box;
+    color: black !important;
+    margin-top: 20px;
+    padding-top: 0%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column-main {
+    float: left;
+    width: 50.00%;
+    
+  }
+  
+  /* Clear floats after the columns */
+  .row-main:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column-contact {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row-contact:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .name{
+      font-size: 30px;
+      margin-top: 10px;
+      padding-top: 0%;
+      color: #000000;
+  }
+
+  .links{
+      font-size: 30px;
+      color: black;
+      
+  }
+
+  .sticky{
+  
+    background-origin: padding-box;
+    background-color: purple;
+    opacity: 1;
+    
+    
+    outline-style: groove;
+    position: sticky;
+    margin: -60px, 20px;
+    top: 0;
+ }
+
+ .headshot{
+     border-radius: 60.00%;
+     width: 350px;
+     height: 270;
+     padding-top: 10px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     
+ }
+ 
+ .info{
+     color: black;
+     font-size: 20px;
+     padding-top: 20px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ .row-images {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+.column-images {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column-images img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column-images {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column-images {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+  .app{
+    border-radius: 50.00%;
+     padding-top: 10px;
+     max-width: 100px;
+  }
+
+  .column-apps {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row-apps:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column-unity {
+    float: left;
+    width: 50.00%;
+  }
+  
+  /* Clear floats after the columns */
+  .row-projects:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .unity-images {
+    flex: 75%;
+    max-width: 75%;
+    padding: 0 4px;
+  }
+  
+  .unity-images img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .unity-images {
+      flex: 75%;
+      max-width: 75%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .unity-images {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .swords-video{
+    margin-top: 150px;
+  }
+
+  .swords{
+    margin-top: 40px;
+  }
+
+  .tetris{
+    margin-top: 50px;
+  }
+
+  .row-projects{
+    border-style: solid;
+    border-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .column-video {
+    float: left;
+    width: 50.00%;
+  }
+  
+  /* Clear floats after the columns */
+  .row-projects:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .text-video{
+    margin-top: 200px;
+  }
+
+  .centered{
+    margin-top: 200px;
+  }
+
+
+
+  
+
+
+
