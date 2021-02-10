@@ -7,12 +7,14 @@ h1{
 }
 h2{
   color: black;
+  font-size: 30px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 p{
   color: black;
-  font-size: 20px;
+  font-size: 25px;
+  
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 body{
@@ -27,6 +29,8 @@ body{
 .about{
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
 }
 
 
