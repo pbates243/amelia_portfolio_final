@@ -39,12 +39,12 @@ body{
 
 
 .column {
-    float: left;
-    width: 33.33%;
+    
     background-origin: padding-box;
     color: black !important;
-    margin-top: 20px;
-    padding-top: 0%;
+    margin-top: 10px;
+    padding-top: 10px;
+    text-align: center;
   }
   
   /* Clear floats after the columns */
@@ -80,10 +80,11 @@ body{
   }
 
   .name{
-      font-size: 30px;
-      margin-top: 10px;
-      padding-top: 0%;
+      font-size: 50px;
+      margin-top: 0px;
+      padding-top: 0px;
       color: #000000;
+      text-align: center;
   }
 
   .links{
@@ -95,21 +96,26 @@ body{
   .sticky{
   
     background-origin: padding-box;
+    height: 70px;
     background-color: purple;
     opacity: 1;
-    
-    
-    outline-style: groove;
+    outline-style: hidden;
     position: sticky;
-    margin: -60px, 20px;
+    margin: -40px, 20px;
     top: 0;
  }
 
  .headshot{
-     border-radius: 60.00%;
-     width: 350px;
-     height: 270;
-     padding-top: 10px;
+     border-radius: 50.00%;
+     
+     border: 3px solid black;
+     border-radius: 18px;
+     box-shadow: 0 0 2px #888;
+     
+     width: 450px;
+     height: 550px;
+     padding-top: 20px;
+     margin-top: 10px;
      display: block;
      margin-left: auto;
      margin-right: auto;
